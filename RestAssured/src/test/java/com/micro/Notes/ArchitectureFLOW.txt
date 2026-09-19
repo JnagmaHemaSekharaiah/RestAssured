@@ -1,0 +1,31 @@
+
+                 REST ASSURED
+                      │
+                      ▼
+            RequestSpecification
+          (request configuration)
+                      │
+                      ▼
+                   given()
+                      │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+       when()                  then()
+          │                       │
+          ▼                       ▼
+       Response           ValidatableResponse
+          │                       │
+          │                       ▼
+          │              ResponseSpecification
+          │              (expected response)
+          │
+          ▼
+   get() / post() / put()
+   / delete()
+
+
+
+ResponseSpecification in REST Assured is used to define reusable response validation
+rules such as status code, content type, headers, and response time, which can then be
+applied to multiple API test cases.
+

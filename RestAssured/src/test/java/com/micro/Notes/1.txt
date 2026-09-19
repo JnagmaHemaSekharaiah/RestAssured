@@ -1,0 +1,9 @@
+Post
+
+200 (Ok)       -- Sucessfull
+201 (Created)  -- processed sucessfully but not nessariy create new resource
+202 (Accepted) --  processing will happen asynchrnously-
+
+API Chaning : In automation APi chnaing means using response data from one API request as input
+to another API request
+
