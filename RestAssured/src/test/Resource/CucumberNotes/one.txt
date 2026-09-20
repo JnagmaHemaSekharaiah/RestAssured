@@ -1,0 +1,30 @@
+monochrome true ;
+
+
+
+
+
+UndefinedStepException
+It means Cucumber cannot find Java step definitions
+
+
+Tags
+=====
+
+@Regression
+Feature: Booking API
+
+  @CreateBooking
+  Scenario: Create a booking
+    Given I have booking request body
+    When I send a post request to create booking
+    Then the response status should be 200
+
+  @GetBooking
+  Scenario: Get a booking
+    Given I have a booking ID
+    When I send a get request
+    Then the response status should be 200
+
+
+    Scenario Outline decides how to execute the same scenario with multiple sets of data.

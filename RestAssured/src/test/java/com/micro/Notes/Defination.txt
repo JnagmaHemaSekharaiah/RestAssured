@@ -1,0 +1,18 @@
+Serilization
+
+POJO
+
+How to convert JSON java Classes ?
+
+Chaning
+
+idempotent
+
+HOOKS
+
+
+Basic authentication
+Bearer Token
+OAuth 2.0
+Authentication Vs Authrization
+

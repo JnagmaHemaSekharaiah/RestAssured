@@ -29,3 +29,16 @@ ResponseSpecification in REST Assured is used to define reusable response valida
 rules such as status code, content type, headers, and response time, which can then be
 applied to multiple API test cases.
 
+
+             JSON
+               |
+    ---------------------------
+    |                          |
+   READ                      Write
+    |                          |
+ JSON Path                 Jackson/Gson
+    |                          |
+Extract Values           Create/modify JSON
+
+
+

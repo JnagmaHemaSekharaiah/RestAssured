@@ -1,0 +1,73 @@
+get()
+-----
+
+public static RequestSpecification  given() - Parent - RestAssured(Class)
+public static ResponseSpecification when()  - Parent - RequestSpecification(I)
+public static ValidatableResponse   then()  -          Response(class)
+
+public static Response get(String path)     -          RequestSpecification(I)
+public static Response post(String path)    -          RequestSpecification
+public static Response put(String path)     -          RequestSpecification
+public static Response delete(String path)  -          RequestSpecification
+
+1.RestAssured is the main class/entry point.
+2.RequestSpecification is used to prepare the HTTP request.
+3.Response represents the server's response after executing the request.
+4.ValidatableResponse is used to validate that response using methods like statusCode(),
+  body(), and header().
+
+RequestSpecification
+│
+├── URL Configuration
+│   ├── baseUri()
+│   ├── basePath()
+│   └── port()
+│
+├── Request Data
+│   ├── body()
+│   ├── queryParam()
+│   └── pathParam()
+│
+├── Headers
+│   ├── header()
+│   ├── headers()
+│   ├── contentType()
+│   └── accept()
+│
+├── Authentication
+│   └── auth()
+│
+├── Cookies
+│   ├── cookie()
+│   └── cookies()
+│
+├── Logging
+│   └── log()
+
+
+Response
+│
+├── statusCode()
+├── statusLine()
+├── getBody()
+├── jsonPath()
+├── getHeader()
+├── getHeaders()
+├── getCookie()
+├── contentType()
+├── time()
+└── then()
+
+ValidatableResponse
+│
+├── statusCode()       → Validate status code
+├── statusLine()       → Validate status line
+├── body()             → Validate JSON/XML/body values
+├── header()            → Validate response header
+├── cookie()            → Validate cookie
+├── contentType()      → Validate content type
+├── time()             → Validate response time
+├── spec()             → Apply ResponseSpecification
+├── extract()          → Extract response data
+└── log()              → Log validation details
+

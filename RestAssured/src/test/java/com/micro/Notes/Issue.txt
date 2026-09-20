@@ -1,0 +1,4 @@
+ClassCastException?
+ - Happens when trying to cast one data type to an incompatible type.
+ - Example: Casting a number to a string without con
+
