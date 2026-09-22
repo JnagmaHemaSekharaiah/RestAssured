@@ -1,0 +1,2 @@
+Rest Assured automatically convert Java object into JSON object by using ObjectMapper class of
+Jackson

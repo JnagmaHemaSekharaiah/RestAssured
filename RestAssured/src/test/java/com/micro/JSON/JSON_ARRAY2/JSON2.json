@@ -1,0 +1,23 @@
+{
+  "orderId": "ORD1234",
+  "customerName": "Rahul Verma",
+  "totalAmount": 2599.50,
+  "isDelivered": false,
+  "address": {
+    "city": "Hyderabad",
+    "pincode": "500081"
+  },
+  "items":
+  [
+    {
+      "productName": "Keyboard",
+      "quantity": 2,
+      "price": 799.0
+    },
+    {
+      "productName": "Mouse",
+      "quantity": 1,
+      "price": 999.0
+    }
+  ]
+}

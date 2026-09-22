@@ -1,0 +1,7 @@
+{
+  "studentName": "Priya Sharma",
+  "rollNumber": 21,
+  "subjects": ["Math", "Science", "English"],
+  "scores": [85, 90, 78],
+  "isPassed": true
+}
