@@ -11,7 +11,6 @@ public class FreqChar
         String str = "Jangam Hema Sekharaiah";
 
         Map<Character,Integer> map = new HashMap<>();
-        int count =1;
         for (int i = 0; i <str.length() ; i++)
         {
             Character c = str.charAt(i);
